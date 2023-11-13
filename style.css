@@ -37,8 +37,37 @@
     justify-content: space-between;
     gap: 100px;
 }
-.panel-4 img{
-    height: 50px;
-    width: 50px;
+
+.panel_4{
+    top: 400px;
+    position: absolute;
+    margin-left: 50px;
+}
+.panel_4 h4{
+    font-weight: bolder;
+}
+
+.boult img{
+    height: 100px;
+    width: 120px;
     border-radius: none;
+}
+
+.boat_para{
+    font-size: 11px;
+}
+
+.sign_in{
+    height: 150px;
+    width: 300px;
+}
+
+/* .sign_in button{
+    padding-left: 70px;
+    padding-right: 70px;
+} */
+
+.art_vibes img{
+    height: 180px;
+    width: 300px;
 }
