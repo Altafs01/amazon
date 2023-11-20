@@ -92,3 +92,67 @@
     font-size: 10px;
     margin-bottom: 80px;
 }
+
+.anchor_mini {
+    font-size: 14px;
+}
+
+.panel_13{
+    line-height: 30px;
+    border-top: 1px solid rgba(0, 0, 0, 0.120);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.120);
+    /* margin-bottom: ; */
+}
+
+.panel_13 p {
+    font-size: 13.5px;
+}
+
+.sign_ser{
+    font-size: 13px;
+}
+
+.panel_14{
+    background-color: #37475A;
+    height: 50px;
+}
+
+.panel_15{
+    background-color: #232F3E;
+}
+
+.foot_head{
+    margin-left: 30px;
+    font-size: 18px;
+}
+
+.footer_li{
+    list-style: none;
+
+}
+
+.footer_li a{
+    text-decoration: none;
+    color: white;
+    line-height:2rem;
+}
+
+.logo-2 img{
+    height: 60px;
+    width: 100px;
+}
+
+.all_over_lang {
+    list-style: none;
+}
+
+.all_over_lang a{
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+    margin-right: 18px;
+    flex-wrap: wrap;
+    /* font-weight: bol */
+}
+
+ 
