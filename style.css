@@ -151,8 +151,46 @@
     text-decoration: none;
     font-size: 13px;
     margin-right: 18px;
-    flex-wrap: wrap;
-    /* font-weight: bol */
 }
 
+.panel_16{
+    background-color: #131A22;
+}
+
+.show_table{
+    width: 80%;
+}
+
+.table{
+    line-height: 1rem;
+    font-size: 13px;
+}
+table td{
+    border-bottom: none;
+}
+
+.table a{
+    text-decoration: none;
+    color: white;
+}
+
+.table span{
+    color: #999;
+}
+.last_div{
+    line-height: 0.5rem;
+    font-size: 12.5px;
+}
+.foot_last_li{
+    list-style: none;
+}
+.foot_last_li a{
+    text-decoration: none;
+    color: white;
+}
+.last_span{
+    text-align: center;
+    margin-left: 40%;
+}
+ 
  
