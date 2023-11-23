@@ -25,7 +25,7 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
 
-        <div class="delivery-section">
+        <div class="delivery-section d-flex">
           <ul class="del-ul">
             <li class="list-group-item del-1 ms-3">Delivering to mumbai 400071</li>
             <li class="list-group-item fs-6"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
@@ -33,11 +33,246 @@
                 <path
                   d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z" />
                 <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
-              </svg> <b>Update location</b></li>
+              </svg> <b>Update location</b>
+            </li>
           </ul>
+          <div class=" ms-4 search_bar d-flex">
+            <div class="search_all">
+              <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1"
+                  data-bs-toggle="dropdown" aria-expanded="false">
+                  All
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="search_amazon">
+              <input type="text" style="height: 40px; width: 450px;">
+            </div>
+          </div>
         </div>
+        <div class="_1arh ms-3">
+          <div class="btn-group ">
+            <button class="btn text-light btn-sm dropdown-toggle fw-bolder " type="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              <img src="images/india.png" alt="indian_flag" class="_1awh">
+              EN
+            </button>
+            <ul class="dropdown-menu p-4 nav_languages" style=" width: 200px;">
+              <a href="#">
+                <li class="english border-bottom">
+                  <div>
+                    <input class="form-check-input" type="radio" name="radioNoLabel" id="radioNoLabel1" value=""
+                      aria-label="...">
+                    English- EN
+                  </div>
+                </li>
+              </a>
+              <a href="#">
+                <li class="hindi">
+                  <div>
+                    <input class="form-check-input" type="radio" name="radioNoLabel" id="radioNoLabel1" value=""
+                      aria-label="...">
+                    हिन्दी - HI
+                  </div>
+                </li>
+              </a>
+              <a href="#">
+
+                <li class="tamil">
+                  <div>
+                    <input class="form-check-input" type="radio" name="radioNoLabel" id="radioNoLabel1" value=""
+                      aria-label="...">
+                    தமிழ் - TA
+                  </div>
+                </li>
+              </a>
+              <a href="#">
+
+                <li class="telgu">
+                  <div>
+                    <input class="form-check-input" type="radio" name="radioNoLabel" id="radioNoLabel1" value=""
+                      aria-label="...">
+                    తెలుగు - TE
+                  </div>
+                </li>
+              </a>
+              <a href="#">
+                <li class="karnatka">
+                  <div>
+                    <input class="form-check-input" type="radio" name="radioNoLabel" id="radioNoLabel1" value=""
+                      aria-label="...">
+                    ಕನ್ನಡ - KN
+                  </div>
+                </li>
+              </a>
+              <a href="#">
+
+                <li class="malyalam">
+                  <div>
+                    <input class="form-check-input" type="radio" name="radioNoLabel" id="radioNoLabel1" value=""
+                      aria-label="...">
+                    മലയാളം - ML
+                  </div>
+                </li>
+              </a>
+              <a href="#">
+                <li class="bangali">
+                  <div>
+                    <input class="form-check-input" type="radio" name="radioNoLabel" id="radioNoLabel1" value=""
+                      aria-label="...">
+                    বাংলা - BN
+                  </div>
+                </li>
+              </a>
+              <a href="#">
+                <li class="marathi">
+                  <div>
+                    <input class="form-check-input" type="radio" name="radioNoLabel" id="radioNoLabel1" value=""
+                      aria-label="...">
+                    मराठी - MR
+                  </div>
+                </li>
+              </a>
+            </ul>
+          </div>
+        </div>
+
+        <div class="account_list mt-3">
+          <div class="btn-group ">
+            <button class="btn text-light btn-sm dropdown-toggle fw-bolder " type="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              <li class="hello">
+                Hello, sign in
+              </li>
+              Account & Lists
+            </button>
+            <ul class="dropdown-menu p-4 nav_languages">
+              <div>
+                <div class="customer_service border-bottom text-center">
+                  <button class="sign_ser fw-bolder btn btn-warning" type="button" style="width: 250px;">Sign
+                    in</button>
+                  <p>New Customers <span> <a href="#" class="text-decoration-none text-info">Start here</a></span></p>
+                </div>
+              </div>
+              <div class="your_list d-flex" style="width: 500px;">
+                <div class="col-lg-6 border-end">
+
+                  <a href="#">
+                    <li class="create">
+                      Create a Wish List
+                    </li>
+                  </a>
+                  <a href="#">
+                    <li class="create">
+                      Wish from Any Website
+                    </li>
+                  </a>
+                  <a href="#">
+                    <li class="create">
+                      Baby Wishlist
+                    </li>
+                  </a>
+                  <a href="#">
+                    <li class="create">
+                      Discover Your Style
+                    </li>
+                  </a>
+                  <a href="#">
+                    <li class="create">
+                      Explore Showroom
+                    </li>
+                  </a>
+                </div>
+
+
+                <div class="col-lg-6">
+                  <div class="your_account px-3">
+                    <a href="#">
+                      <li class="account">
+                        Your Account
+                      </li>
+                    </a>
+                    <a href="#">
+                      <li class="account">
+                        Your Orders
+                      </li>
+                    </a>
+                    <a href="#">
+                      <li class="account">
+                        Your Wish List
+                      </li>
+                    </a>
+                    <a href="#">
+                      <li class="account">
+                        Your Recommendations
+                      </li>
+                    </a>
+                    <a href="#">
+                      <li class="account">
+                        Your Payment methods
+                      </li>
+                    </a>
+                    <a href="#">
+                      <li class="account">
+                        Your Prime Membership
+                      </li>
+                    </a>
+                    <a href="#">
+                      <li class="account">
+                        Your Prime video
+                      </li>
+                    </a>
+                    <a href="#">
+                      <li class="account">
+                        Your Subscriptions & Save Items
+                      </li>
+                    </a>
+                    <a href="#">
+                      <li class="account">
+                        Membership & Subscriptions
+                      </li>
+                    </a>
+                    <a href="#">
+                      <li class="account">
+                        Your Seller Accounts
+                      </li>
+                    </a>
+                    <a href="#">
+                      <li class="account">
+                        Manage your Content & Devices
+                      </li>
+                    </a>
+                    <a href="#">
+                      <li class="account">
+                        Your Free Amazon Business Account
+                      </li>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </ul>
+          </div>
+        </div>
+        <div class="return ms-3">
+          <button class="btn text-light btn-sm fw-bolder"  type="button"
+          aria-expanded="false">
+              <li class="ret_a">
+                Return 
+              </li>
+             & Orders
+          </button>
+        </div>
+
+        <div class="cart ms-3">
+          <img width="45" height="45" src="https://img.icons8.com/material-rounded/24/FFFFFF/shopping-cart.png" alt="shopping-cart"/>
+        </div>
+
       </div>
-    </div>
   </nav>
 
   <section class="panel2-sec">
@@ -116,7 +351,7 @@
     <div class="container-fluid my-2">
       <div class="row row-cols-4">
         <div class="col">
-          <div class="container shadow-lg p-3 mb-5 bg-body">
+          <div class="container shadow-lg p-3 mb-5 bg-body"style="height: 420px;">
             <h5>Up to 75% off | Headphones</h5>
             <div class="row row-cols-2">
               <div class="col boult">
@@ -141,7 +376,7 @@
         </div>
 
         <div class="col">
-          <div class="container shadow-lg p-3 mb-5 bg-body">
+          <div class="container shadow-lg p-3 mb-5 bg-body" style="height: 420px;">
             <h5>Up to 60% off | Styles for men</h5>
             <div class="row row-cols-2">
               <div class="col boult">
@@ -167,7 +402,7 @@
 
         <div class="col">
           <div class="col">
-            <div class="container shadow-lg p-3 mb-5 bg-body">
+            <div class="container shadow-lg p-3 mb-5 bg-body"style="height: 420px;">
               <h5>Appliances for your home | Up to 55% off</h5>
               <div class="row row-cols-2">
                 <div class="col boult">
@@ -191,7 +426,7 @@
             </div>
           </div>
         </div>
-        <div class="col">
+        <div class="col" style="height: 420px;">
           <div class="sign_in shadow-lg p-3 mb-5 bg-body">
             <h5>Sign in for your best experience</h5>
             <div class="d-grid gap-2 ">
@@ -206,10 +441,10 @@
     </div>
     </div>
 
-    <div class="container-fluid">
+    <div class="container-fluid" >
       <div class="row row-cols-4">
         <div class="col">
-          <div class="container shadow-lg p-3 mb-5 bg-body">
+          <div class="container shadow-lg p-3 mb-5 bg-body" style="height: 420px;">
             <h5>Appliances for your home | Up to 55% off</h5>
             <div class="row row-cols-2">
               <div class="col boult">
@@ -234,7 +469,7 @@
         </div>
 
         <div class="col">
-          <div class="container shadow-lg p-3 mb-5 bg-body">
+          <div class="container shadow-lg p-3 mb-5 bg-body" style="height: 420px;">
             <h5>Revamp your home in style</h5>
             <div class="row row-cols-2">
               <div class="col boult">
@@ -889,10 +1124,10 @@
                 Amazon Business <br>
                 <span>
                   Everything for <br>
-                   Your Business
+                  Your Business
                 </span>
               </a>
-            </td> 
+            </td>
             <td>
               <a href="#">
                 Prime Now <br>
@@ -901,7 +1136,7 @@
                   on Everyday items
                 </span>
               </a>
-            </td>           
+            </td>
             <td>
               <a href="#">
                 Amazon Prime Music <br>
@@ -933,13 +1168,13 @@
               Interest-Based Ads
             </a>
           </li>
-          
+
         </ul>
-        <span class="text-center text-light last_span"> 
+        <span class="text-center text-light last_span">
           1996-2023, Amazon.com,inc. or its Affiliates
         </span>
       </div>
-      
+
     </div>
   </section>
 
