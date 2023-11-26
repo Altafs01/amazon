@@ -1,12 +1,31 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+
+}
+
+.border_1{
+    border: 1.5px solid transparent;
+}
+
+.border_1:hover{
+    border: 1.5px solid white;
+}
+
 .navbar{
-    height: 70px;
+    height: 60px;
     width: 100%;
     color: white;
 }
 
 .logo img{
-    height: 60px;
+    height: 50px;
     width: 100%;
+}
+
+.delivery-section{
+    width:21%;
 }
 
 .del-1{
@@ -49,8 +68,53 @@
     font-size: 0.8rem;
 }
 
-.shoping_cart{
-    color: white;
+/* search bar */
+.nav_search{
+    width: 620px;
+    height: 40px;
+    border-radius: 4px;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+
+.search_select{
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+}
+
+.search_input{
+    width: 100%;
+    font-style: 1rem;
+    border: none;
+}
+
+.search-icon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: #febd68;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color: #0f1111;
+}
+
+.nav_search:hover {
+    border: 2px solid orange;
+}
+
+.nav_cart i{
+    font-size: 40px;
+}
+
+.nav_cart{
+    font-size: 0.85rem;
+    font-weight: bold;
 }
 
 .panel2-sec{
@@ -237,4 +301,67 @@ table td{
 ._4Abed img{
     height: 200px;
     width: 100%;
+}
+
+.sarees img{
+    height: 200px;
+    width: 150px;
+}
+
+.natural img{
+    height: 200px;
+    width: 100%;
+}
+
+.card{
+    border: none;
+    padding: 10px;
+}
+
+.home_asscessories a {
+    color: #007185;
+    font-size: 14px;
+}
+
+.home_asscessories img{
+    height: 180px;
+    width: 100%;
+}
+.cosmix p{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.more_info p{
+    font-size: 0.84rem;
+    line-height: 1.4rem;
+    margin-bottom: -0.10px;
+}
+
+.more_info span{
+    font-size: 12px;
+}
+
+.free{
+    font-size: 0.8rem;
+}
+
+.discount{
+    background-color: #cc0c39;
+}
+
+.deal{
+    color: #cc0c39;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+
+.get_it span{
+    font-size: 12px;
+}
+
+.rin_bar{
+    font-size: 0.8rem;
 }
