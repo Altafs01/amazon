@@ -1,10 +1,14 @@
 @media screen and(max-width: 600px) {
-    .navbar{
-        overflow: none;
+    html,body{
+        overflow-x: none;
     }
 
-    .row col{
-        flex-direction: column;
-        flex-wrap: wrap;
+    .foot_last_li{
+        line-height: -2rem;
     }
+
+    .last_span{
+        line-height: 1.2rem;
+    }
+
 }
